@@ -1,0 +1,79 @@
+/* OrderIngestion.module.css */
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #1d3557;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  label {
+    font-size: 1rem;
+    color: #457b9d;
+    font-weight: 500;
+  }
+  
+  input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #457b9d;
+    box-shadow: 0 0 5px rgba(69, 123, 157, 0.5);
+    outline: none;
+  }
+  
+  button {
+    background: #457b9d;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background: #1d3557;
+  }
+  
+  .alert {
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .alert-danger {
+    background: #e63946;
+    color: white;
+  }
+  
+  .alert-success {
+    background: #2a9d8f;
+    color: white;
+  }
+  
